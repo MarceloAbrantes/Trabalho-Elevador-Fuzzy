@@ -10,8 +10,11 @@ Projeto implementa um sistema de controle PD baseado em lógica fuzzy para contr
 ## Estrutura do Edifício
 
 -O edifício possui 11 andares e 36 metros de altura.
+
 -O elevador começa na altura 4 metros.
+
 -Vai até 32 metros
+
 -Possui 9 andares com o terreo
 
 ## Etapas de controle Fuzzy
