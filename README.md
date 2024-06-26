@@ -15,8 +15,6 @@ Projeto implementa um sistema de controle PD baseado em lógica fuzzy para contr
 
 -Vai até 32 metros
 
--Possui 9 andares com o terreo
-
 ## Etapas de controle Fuzzy
 1. **Definição de Variáveis:** Primeiro, são definidas as variáveis fuzzy que serão usadas no sistema de controle: Erro, deltaErro e p_motor.
 
