@@ -9,11 +9,11 @@ Projeto implementa um sistema de controle PD baseado em lógica fuzzy para contr
 
 ## Estrutura do Edifício
 
--O edifício possui 11 andares e 36 metros de altura.
+- O edifício possui 11 andares e 36 metros de altura.
 
--O elevador começa na altura 4 metros.
+- O elevador começa na altura 4 metros.
 
--Vai até 32 metros
+- Vai até 32 metros
 
 ## Etapas de controle Fuzzy
 1. **Definição de Variáveis:** Primeiro, são definidas as variáveis fuzzy que serão usadas no sistema de controle: Erro, deltaErro e p_motor.
@@ -64,6 +64,9 @@ Funções Implementadas:
 - Cria uma interface gráfica simples usando tkinter.
   
 - Exibe botões para cada andar, permitindo que o usuário chame o elevador diretamente clicando no botão correspondente.
+
+![image](https://github.com/MarceloAbrantes/Trabalho-Elevador-Fuzzy/assets/99184020/19037e5c-d1e7-4d6f-9d19-80efc726b886)
+
 
 ## Autor
 Marcelo Henrique Souza Abrantes- GEC 1538
