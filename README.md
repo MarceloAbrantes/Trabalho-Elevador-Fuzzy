@@ -34,7 +34,7 @@ Projeto implementa um sistema de controle PD baseado em lógica fuzzy para contr
   
 ## Interface Gráfica
 
-Funções:
+Funções Implementadas:
 
 1. **simular_elevador(andarAtual, andarDeslocado):** 
 
