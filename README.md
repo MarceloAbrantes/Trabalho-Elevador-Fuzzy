@@ -38,28 +38,28 @@ Funções:
 
 1. **simular_elevador(andarAtual, andarDeslocado):** 
 
--Inicia a simulação do movimento do elevador.
+- Inicia a simulação do movimento do elevador.
 
--Define a posição inicial do elevador e calcula o erro de altura inicial.
+- Define a posição inicial do elevador e calcula o erro de altura inicial.
 
--Simula a aceleração do motor nos primeiros 3 segundos, onde a potência do motor aumenta linearmente até 31,5%.
+- Simula a aceleração do motor nos primeiros 3 segundos, onde a potência do motor aumenta linearmente até 31,5%.
 
 - Usa controle fuzzy para ajustar continuamente a posição do elevador em relação ao andar desejado.
 
 - Retorna um array posicao que registra a posição do elevador ao longo do tempo.
 
 
-3. **plotar_grafico(posicao, setpoint):** Plota o movimento real do elevador em relação ao tempo, mostrando também o andar desejado.
+2. **plotar_grafico(posicao, setpoint):** Plota o movimento real do elevador em relação ao tempo, mostrando também o andar desejado.
 
--Plota um gráfico que mostra a posição real do elevador ao longo do tempo.
+- Plota um gráfico que mostra a posição real do elevador ao longo do tempo.
 
--Adiciona uma linha de referência (setpoint) indicando o andar desejado.
+- Adiciona uma linha de referência (setpoint) indicando o andar desejado.
    
 3. **chamar_elevador(andar):**
   
--Interface para chamar o elevador para um andar específico através de botões em uma interface gráfica.
+- Interface para chamar o elevador para um andar específico através de botões em uma interface gráfica.
 
--Atualiza dinamicamente o gráfico conforme o elevador se move em resposta aos comandos.
+- Atualiza dinamicamente o gráfico conforme o elevador se move em resposta aos comandos.
    
 4. **tkinter:**
    
